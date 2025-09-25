@@ -1,20 +1,40 @@
 const bookingData = {
-    firstname: "Ben",
-    lastname: "Stiller",
-    totalprice: 200,
-    depositpaid: true,
-    bookingdates: {
-        checkin: "2018-01-01",
-        checkout: "2019-01-01"
-    }
+    "firstname": "Bruce",
+    "lastname": "Yellow",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-09-25",
+        "checkout": "2025-09-30"
+    },
+    "additionalneeds": "Breakfast"
 }
 
-const newNameAndLastName = {
-    firstName: 'Mike',
-    lastName: 'Tyson'
+const brokenBookingData = {
+    "lastname": "Yellow",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-09-25",
+        "checkout": "2025-09-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+
+const newBookingData = {
+    "firstname": "Mike",
+    "lastname": "Tyson",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-09-25",
+        "checkout": "2025-09-30"
+    },
+    "additionalneeds": "Breakfast"
 }
 
 module.exports = {
     bookingData,
-    newNameAndLastName
+    brokenBookingData,
+    newBookingData
 }
