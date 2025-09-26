@@ -1,4 +1,3 @@
-require('dotenv').config()
 const request = require('supertest')
 const { getToken } = require('../utils/utils')
 
