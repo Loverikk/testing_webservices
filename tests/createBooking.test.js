@@ -21,7 +21,7 @@ describe('POST /booking', () => {
         }
     })
 
-    afterAll(async () => {
+    afterAll(() => {
         token = null
     })
 

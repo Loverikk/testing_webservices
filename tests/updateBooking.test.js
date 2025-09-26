@@ -22,7 +22,7 @@ describe('PUT /booking/:id', () => {
         }
     })
 
-    afterAll(async () => {
+    afterAll(() => {
         token = null
     })
 

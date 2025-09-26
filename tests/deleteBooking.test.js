@@ -11,7 +11,7 @@ describe('DELETE /booking/:id', () => {
         token = (await getToken(api)).body.token
     })
 
-    afterAll(async () => {
+    afterAll(() => {
         token = null
     })
 
