@@ -1,4 +1,4 @@
 module.exports = {
-    setupFiles: ['<rootDir>/jest.setup.js'],
-    verbose: true,
+  setupFiles: ['<rootDir>/jest.setup.js'],
+  verbose: true,
 };
