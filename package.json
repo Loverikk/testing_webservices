@@ -2,7 +2,8 @@
   "scripts": {
     "test": "jest",
     "format": "npx prettier . --write",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test:report": "jest && open reports/test-report.html"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
